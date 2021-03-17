@@ -13,6 +13,18 @@ public class Hello{
 		System.out.println("b: "+b);
 		System.out.println("c: "+c);
 		System.out.println("d: "+d);
+		
+		a=b=c=d=100; //값을 하나로 초기화. 기존에 있는 값을 무시한다. 변수를 초기화
+		
+		System.out.println("a: "+a);
+		System.out.println("b: "+b);
+		System.out.println("c: "+c);
+		System.out.println("d: "+d);
+		
+		a=100;
+		a=a+200; //초기화
+		System.out.println("a: "+a);
+		
 	}
 
 }
