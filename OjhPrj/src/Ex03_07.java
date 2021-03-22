@@ -13,7 +13,5 @@ public class Ex03_07 {
 		System.out.printf("bÀÇ °ª==> %f \n",b);
 
 		
-		
-		
 }
 }
